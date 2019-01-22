@@ -8,7 +8,7 @@ $('.app').addClass('sidebar-mini');
 $(document).on("click", "[data-toggle='sidebar']", function(event) {
   event.preventDefault();
   console.log("cooool")
-  $('.app').toggleClass('sidenav-toggled');
+  $('#app').toggleClass('sidenav-toggled');
 });
 
 if ( $(window).width() > 739) {
