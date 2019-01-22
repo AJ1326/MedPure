@@ -1,7 +1,7 @@
 
 
 
-alert(‘sdsds’)
+alert(‘sdsds’);
     var slideMenu = $('.side-menu');
 
     $('.app').addClass('sidebar-mini');
