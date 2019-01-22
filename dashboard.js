@@ -1,6 +1,4 @@
-(function ($) {
-  'use strict'
-  // $ = window.$
+
 
   $('#empname').hide()
 
@@ -128,4 +126,3 @@
   $(document).on('click', '.color-set', function () {
     $('.app-sidebar').removeClass().addClass('app-sidebar').addClass($(this).attr('refsColor'))
   })
-})
